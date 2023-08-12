@@ -13,5 +13,5 @@ if Hitung :
     rata_rata = (nilai_verbal + nilai_numerikal + nilai_figural) / 3
     nilai_tpa = ((rata_rata / 100)*600)+200
 
-    st.write ('Nilai TPA Anda Adalah=', nilai_tpa)
+    st.markdown(f'<p style="font-size: 24px;">Nilai TPA Anda Adalah= {round(nilai_tpa, 2)}</p>', unsafe_allow_html=True)
 
